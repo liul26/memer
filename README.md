@@ -1,3 +1,11 @@
+# memer
+### this app allows you to search memes
+
+- create-react-app memer
+- npm install @material-ui/core --save
+- npm start
+- if you have a weird npm problem, delete the "node_modules" folder which contains libraries, and type npm i to reinstall npm in the terminal
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
