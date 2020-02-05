@@ -16,7 +16,7 @@ function App() {
     const key='AitgzNZBJNonm2fIFf7fc6EsGIuRfS0a'
     let url = 'https://api.giphy.com/v1/gifs/search?'
     url += 'api_key=' + key
-    url += '&q=' + text + '&limit=25&offset=0&rating=G&lang=en'
+    url += '&q=' + text + '&limit=50&offset=0&rating=G&lang=en'
     const r = await fetch(url)
     const body = await r.json()
     setMemes(body.data)
