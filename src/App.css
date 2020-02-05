@@ -37,6 +37,12 @@
   position: relative;
 }
 
+.loading-wrap {
+  position:absolute;
+  display:flex;
+  
+}
+
 .meme-title {
   display: none;
   position: absolute;
